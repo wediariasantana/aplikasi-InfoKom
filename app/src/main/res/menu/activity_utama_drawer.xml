@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menuawal"
+            android:icon="@drawable/ic_home_black_48dp"
+            android:title="Menu Awal" />
+        <item
+            android:id="@+id/nav_keuangan"
+            android:icon="@drawable/ic_account_balance_wallet_black_48dp"
+            android:title="Keuangan" />
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/ic_event_black_48dp"
+            android:title="Agenda" />
+        <item
+            android:id="@+id/nav_berita"
+            android:icon="@drawable/ic_picture_in_picture_black_48dp"
+            android:title="Berita" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_keluar"
+                android:icon="@drawable/ic_exit_to_app_black_48dp"
+                android:title="Keluar" />
+        </menu>
+    </item>
+
+</menu>
